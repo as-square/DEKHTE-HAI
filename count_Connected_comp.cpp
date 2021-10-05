@@ -34,9 +34,11 @@ int main() {
     for (int i =1; i <=n; i++)
     {
         if(!vis[i]){
+            cout<<"starting of a componet at"<<vis[i]<<"n";
             count_conn_comp++;
             dfs(i);
         }
+        
     }
 
     cout<<"count ofconnected_components = "<<count_conn_comp<<"\n";

@@ -41,6 +41,10 @@ int main() {
   
     for (int i = 1; i <=n; i++)
     {
+        cout<<vis[i]<<"  ";
+    }
+    for (int i = 1; i <=n; i++)
+    {
         cout<<dis[i]<<"  ";
     }
     

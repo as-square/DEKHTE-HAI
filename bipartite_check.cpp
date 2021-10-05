@@ -47,5 +47,8 @@ int main() {
     }
     bool ans=dfs(1,0);
     cout<<ans;
+    for(int i=0;i<N;i++){
+        cout<<vis[i]<<" ";
+    }
     return 0;
 }

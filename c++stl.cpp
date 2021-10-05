@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-
+#include <vector>
 using namespace std;
 
 
@@ -9,7 +9,7 @@ int main() {
 
     cout<<A[2]<<endl;
 
-    sort(A.begin(),A.end());
+    sort(A.begin(),A.end());   # sorting the vector
 
     cout<<A[2];
     

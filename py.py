@@ -1,3 +1,5 @@
+# Given a number n find the number of elemets resulting in maximum and
+
 t=int(input())
 for i in range(t):
     n=int(input())
